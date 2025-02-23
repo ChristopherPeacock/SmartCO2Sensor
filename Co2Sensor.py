@@ -54,4 +54,4 @@ while True:
     except Exception as e:
         print("Sensor error:", e)
 
-    time.sleep(2)  # Delay before next reading
+    time.sleep(0.5)  # Delay before next reading
